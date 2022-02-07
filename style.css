@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* LIGHT VERSION */
+/* body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: #E3E3E3;
+    color: #111111;
+} */
+/* DARK VERSION */
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Maven Pro', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background-color: #191B22;
+    color: #ffffff;
+}
+
+main{
+    width: 100%;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 560px;
+}
+
+.post-meta-container{
+    padding: 0 20px;
+    margin-bottom: 8px;
+}
+
+.post-meta-container h1{
+    font-size: 20px;
+    line-height: 26px;
+}
+/* LIGHT VERSION */
+/* .post-item-container{
+    padding: 15px 20px 5px 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    line-height: 22px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+} */
+/* DARK VERSION */
+.post-item-container{
+    padding: 15px 20px 5px 20px;
+    /* border: 1px solid #f1f1f1; */
+    border-radius: 4px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    background-color: #313543;
+    box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(15,15,15,0.2);
+    /* transition: 0.15s; */
+}
+
+.post-item-date{
+    color: #606984;
+    display: block;
+    text-align: right;
+    font-size: 10px;
+}
+
+
